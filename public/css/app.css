@@ -172,10 +172,10 @@ p, section, article, div{
     border-radius: 5px;
     display: flex !important;
     background: var(--dark-color);
+    flex-wrap: nowrap;
 }
 .download-button > *{
     color: var(--light-blue-color);
-    flex-wrap: nowrap;
 }
 @media only screen and (max-width: 900px){
     
