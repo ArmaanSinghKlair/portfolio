@@ -175,6 +175,7 @@ p, section, article, div{
 }
 .download-button > *{
     color: var(--light-blue-color);
+    flex-wrap: nowrap;
 }
 @media only screen and (max-width: 900px){
     
