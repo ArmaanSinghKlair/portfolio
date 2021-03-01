@@ -118,3 +118,12 @@ svg[data-icon]{
     display: inline-block;
     width: 0;
 }
+
+@media only screen and (max-width: 900px){
+    .card-flat{
+        grid-template-columns: auto  !important;
+    }
+    .card-flat img, span[class="material-icons"]{
+        width:100%;
+    }
+}
