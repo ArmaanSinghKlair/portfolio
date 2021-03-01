@@ -165,6 +165,17 @@ p, section, article, div{
 .back-button:hover{
     transform: rotateZ(360deg);
 }
+
+.download-button{
+    padding:1vmin 1vmax !important;
+    border:solid 1px var(--dark-color);
+    border-radius: 5px;
+    display: flex !important;
+    background: var(--dark-color);
+}
+.download-button > *{
+    color: var(--light-blue-color);
+}
 @media only screen and (max-width: 900px){
     
 .cool-overlay-right-aligned{

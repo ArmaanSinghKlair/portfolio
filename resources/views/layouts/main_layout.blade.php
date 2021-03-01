@@ -16,12 +16,11 @@
 </head>
 <body>
 <div class="header flex flex-row justify-content-space-between">
-    <div class="logo">armaan@portfolio</div>
+    <a href="/"><div class="logo">armaan@portfolio</div></a>
 
     <nav class=" flex flex-row justify-content-space-around align-items-center">
         <a href="/" class="{{Request::is('/')?'current':''}} text-link">Home</a>
         <a href="/projects/index" class="{{Request::is('projects/index')?'current-page':''}} text-link">Projects</a>
-        <a href="/about" class="{{Request::is('about')?'current-page':''}} text-link">About</a>
         <a href="https://github.com/ArmaanSinghKlair" class="social-media-link">
             <img src="https://img.icons8.com/fluent/28/000000/github.png"/>
         </a>
@@ -39,7 +38,6 @@
         <nav class=" flex flex-row justify-content-space-around align-center">
             <a href="/" class="{{Request::is('/')?'current':''}} text-link">Home</a>
             <a href="/projects/index" class="{{Request::is('projects/index')?'current-page':''}} text-link">Projects</a>
-            <a href="/about" class="{{Request::is('about')?'current-page':''}} text-link">About</a>
             <a href="https://icons8.com/">Icons</a>
             <a href="https://github.com/ArmaanSinghKlair" class="social-media-link">
                 <img src="https://img.icons8.com/fluent/28/000000/github.png"/>
@@ -50,7 +48,7 @@
             </a>
 
         </nav>
-            <div class="logo">armaan@portfolio</div>
-    </div>
+            <a href="/"><div class="logo">armaan@portfolio</div></a>
+        </div>
 </body>
 </html>

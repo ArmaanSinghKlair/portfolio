@@ -83,7 +83,7 @@ svg[data-icon]{
     grid-auto-rows: auto;
 }
 
-.card-flat img, span[class="material-icons"]{
+.card-flat img,.card-flat span[class="material-icons"]{
     width:20vw
 }
 
