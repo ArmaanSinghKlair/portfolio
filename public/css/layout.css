@@ -1,0 +1,63 @@
+.header,.footer{
+    width: 100%;
+    padding: 2vmax 10%;
+    position: relative
+}
+
+
+.header nav>*, .footer nav>*{
+    margin:0 1vmin;
+}
+
+.footer::before{
+    width: 80%;
+    content: '';
+    border-top: solid 1px lightgray;
+    top:0;
+    left: 10%;
+    position: absolute;
+}
+
+.footer{
+    padding: 5vmax 10%;
+}
+.landing-banner{
+    width: 100%;
+    height: auto;
+    margin:5rem 0;
+}
+
+.landing-banner__container{
+    height: inherit;
+}
+
+.skills, .projects{
+    position: relative;
+    display:table;
+    height: inherit;
+    padding-top: 10%;
+    width: 100%;
+
+}
+
+.projects-cta__container{
+    margin: 1vmax 0;
+}
+
+.projects-cta__container a{
+    transition: 0.3s all;
+}
+.projects-cta__container a:hover{
+    letter-spacing: 1px;
+    background: var(--light-blue-color)
+
+}
+
+.skills__cards, .projects_cards{
+   width: 80% !important;
+}
+
+.footer{
+    width: 100%;
+    margin-top: 10%;
+}

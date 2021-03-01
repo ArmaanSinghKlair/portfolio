@@ -1,0 +1,120 @@
+.header nav a{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.header nav a.text-link:hover::before{
+    left: 0%;
+}
+.header nav a.text-link::before{
+    content:'';
+    position:absolute;
+    width: 100%;
+    border-bottom:solid 1px black;
+    top:95%;
+    left: -100%;
+    transition: 0.3s all;
+}
+
+svg[data-icon]{
+    font-size: 3rem !important;
+}
+
+.profile-image{
+    border-radius: 50%;
+    width: 15rem;
+    height: auto;
+}
+
+.landing-banner__container > *{
+    padding: 1vmax 0;
+}
+
+.skills-overlay{
+    background-color: var(--light-pink-color);
+}
+
+.skills__card{
+    height: 40vh;
+    width:40vh;
+}
+
+
+.projects-overlay{
+    background-color: var(--light-purple-color)
+}
+
+/*   PROJECT CARDS  */
+.projects__cards__container > .projects__card:nth-child(2n){
+    margin-top: 5rem;
+}
+
+.projects__card img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 2rem;
+}
+
+.projects__card{
+    line-height: 1;
+}
+
+.projects__card > *{
+    margin: 1vmax 0;
+}
+
+.projects__card > h3{
+    font-family: 'Roboto'
+}
+
+.projects-cta{
+    border: solid 2px var(--light-blue-color);
+    color: var(--light-blue-color) i !important;
+}
+
+/* FLAT CARDS */
+.cards-flat__container{
+    display: grid;
+    grid-row-gap: 1rem;
+    grid-template-columns: minmax(0,1fr);
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    grid-auto-rows: auto;
+}
+
+.card-flat img, span[class="material-icons"]{
+    width:20vw
+}
+
+.card-flat span[class="material-icons"]{
+    display: grid;
+    place-items: center;
+    font-size: 5rem;
+}
+
+.card-flat{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-row-gap: 1rem;
+    grid-column-gap: 2rem;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    grid-auto-rows: auto;
+    padding:1vmax;
+}
+
+.card-flat__content span{
+    line-height: 1 !important;
+
+}
+
+.link-link{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.landing-banner__scroll-down > span[class="material-icons"]{
+    display: inline-block;
+    width: 0;
+}
