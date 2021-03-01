@@ -140,7 +140,7 @@ p, section, article, div{
 }
 
 .section__heading{
-    font-size: 6rem;
+    font-size: 8vw;
     text-transform: capitalize;
     line-height: 1;
 }
