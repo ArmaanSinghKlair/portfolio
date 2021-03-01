@@ -140,7 +140,7 @@ p, section, article, div{
 }
 
 .section__heading{
-    font-size: 8vw;
+    font-size: 8rem;
     text-transform: capitalize;
     line-height: 1;
 }
@@ -185,5 +185,9 @@ p, section, article, div{
 
 .cool-overlay-left-aligned{
     width: 100%;
+}
+
+.section__heading{
+    font-size: 10vw;
 }
 }
