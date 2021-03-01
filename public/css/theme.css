@@ -107,6 +107,7 @@
 
 .project-link{
     width: auto;
+    word-break: break-all;
 }
 
 .project-link a:hover{
