@@ -13,7 +13,7 @@
                 Building fluid front-end and scalable back-end
             </div>
         </div>
-        <a href="/documents/resume.pdf" class="download-button flex flex-row align-items-center justify-content-space-between">
+        <a href="/resume.pdf" class="download-button flex flex-row align-items-center justify-content-space-between">
             <span>Resume</span>
             <span class="material-icons">download</span> 
         </a>
