@@ -13,9 +13,9 @@
                 Building fluid front-end and scalable back-end
             </div>
         </div>
-        <a href="/resume.pdf" class="download-button flex flex-row align-items-center justify-content-space-between" download>
+        <a href="/resume.pdf" class="download-button flex flex-row align-items-center justify-content-space-between" target="_blank">
             <span>Resume</span>
-            <span class="material-icons">download</span> 
+            <span class="material-icons">launch</span> 
         </a>
 
         <div class="landing-banner__scroll-down">
